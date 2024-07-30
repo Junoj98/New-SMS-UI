@@ -92,12 +92,11 @@
             groupBox1.Controls.Add(btnRefresh);
             groupBox1.Controls.Add(groupBox2);
             groupBox1.Controls.Add(dgvGrade);
-            groupBox1.Dock = DockStyle.Fill;
             groupBox1.Font = new Font("Times New Roman", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox1.ForeColor = SystemColors.ControlLightLight;
-            groupBox1.Location = new Point(0, 0);
+            groupBox1.Location = new Point(12, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1053, 531);
+            groupBox1.Size = new Size(1029, 507);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Subject Master";
@@ -252,7 +251,7 @@
             groupBox2.Controls.Add(label1);
             groupBox2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             groupBox2.ForeColor = SystemColors.ControlLightLight;
-            groupBox2.Location = new Point(630, 81);
+            groupBox2.Location = new Point(662, 81);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(346, 307);
             groupBox2.TabIndex = 1;
@@ -314,7 +313,7 @@
             // 
             dgvGrade.BackgroundColor = SystemColors.ControlLightLight;
             dgvGrade.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvGrade.Location = new Point(10, 94);
+            dgvGrade.Location = new Point(39, 94);
             dgvGrade.Name = "dgvGrade";
             dgvGrade.RowHeadersWidth = 51;
             dgvGrade.Size = new Size(601, 294);
